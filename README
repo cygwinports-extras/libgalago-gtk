@@ -1,0 +1,132 @@
+libgalago-gtk
+------------------------------------------
+Galago is a desktop presence framework, designed to transmit presence
+information between programs. To put it in simpler terms, it takes
+information on who is online and their away/idle states from an instant
+messenger (such as gaim) or other similar programs and lets other
+programs (such as Ximian's Evolution) to make use of it.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.12-1
+  glib2-2.12.12-1
+  gtk2-x11-2.10.12-1
+  libgalago-0.5.2-1
+  libintl8-0.15-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.galago-project.org/
+
+Canonical download:
+  http://www.galago-project.org/files/releases/source/libgalago-gtk/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libgalago-gtk-0.5.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libgalago-gtk-0.5.0-X.cygport all
+
+This will create:
+  /usr/src/libgalago-gtk-0.5.0-X-src.tar.bz2
+  /usr/src/libgalago-gtk-0.5.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libgalago-gtk)
+  /usr/bin/cyggalago-gtk-1.dll
+  /usr/share/doc/Cygwin/libgalago-gtk-0.5.0.README
+  /usr/share/doc/libgalago-gtk-0.5.0/ABOUT-NLS
+  /usr/share/doc/libgalago-gtk-0.5.0/AUTHORS
+  /usr/share/doc/libgalago-gtk-0.5.0/COPYING
+  /usr/share/doc/libgalago-gtk-0.5.0/ChangeLog
+  /usr/share/doc/libgalago-gtk-0.5.0/INSTALL
+  /usr/share/doc/libgalago-gtk-0.5.0/NEWS
+  /usr/share/locale/fr/LC_MESSAGES/libgalago-gtk.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/libgalago-gtk.mo
+  /usr/share/pixmaps/galago/gtk/activebuddy.png
+  /usr/share/pixmaps/galago/gtk/admin.png
+  /usr/share/pixmaps/galago/gtk/aim.png
+  /usr/share/pixmaps/galago/gtk/aol.png
+  /usr/share/pixmaps/galago/gtk/away.png
+  /usr/share/pixmaps/galago/gtk/dnd.png
+  /usr/share/pixmaps/galago/gtk/extendedaway.png
+  /usr/share/pixmaps/galago/gtk/freeforchat.png
+  /usr/share/pixmaps/galago/gtk/gadu-gadu.png
+  /usr/share/pixmaps/galago/gtk/game.png
+  /usr/share/pixmaps/galago/gtk/generic-presence.png
+  /usr/share/pixmaps/galago/gtk/groupwise.png
+  /usr/share/pixmaps/galago/gtk/hiptop.png
+  /usr/share/pixmaps/galago/gtk/icq.png
+  /usr/share/pixmaps/galago/gtk/invisible.png
+  /usr/share/pixmaps/galago/gtk/irc.png
+  /usr/share/pixmaps/galago/gtk/jabber.png
+  /usr/share/pixmaps/galago/gtk/login.png
+  /usr/share/pixmaps/galago/gtk/logout.png
+  /usr/share/pixmaps/galago/gtk/msn.png
+  /usr/share/pixmaps/galago/gtk/na.png
+  /usr/share/pixmaps/galago/gtk/napster.png
+  /usr/share/pixmaps/galago/gtk/notauthorized.png
+  /usr/share/pixmaps/galago/gtk/occupied.png
+  /usr/share/pixmaps/galago/gtk/offline.png
+  /usr/share/pixmaps/galago/gtk/person.png
+  /usr/share/pixmaps/galago/gtk/secure.png
+  /usr/share/pixmaps/galago/gtk/silc.png
+  /usr/share/pixmaps/galago/gtk/trepia.png
+  /usr/share/pixmaps/galago/gtk/wireless.png
+  /usr/share/pixmaps/galago/gtk/yahoo.png
+  /usr/share/pixmaps/galago/gtk/zephyr.png
+
+(libgalago-gtk-devel)
+  /usr/include/libgalago-gtk/galago-gdk-pixbuf.h
+  /usr/include/libgalago-gtk/galago-gtk-account-combo-box.h
+  /usr/include/libgalago-gtk/galago-gtk-account-label.h
+  /usr/include/libgalago-gtk/galago-gtk-account-menu-item.h
+  /usr/include/libgalago-gtk/galago-gtk-contact-chooser-dialog.h
+  /usr/include/libgalago-gtk/galago-gtk-contact-chooser-widget.h
+  /usr/include/libgalago-gtk/galago-gtk-contact-chooser.h
+  /usr/include/libgalago-gtk/galago-gtk-contact-list.h
+  /usr/include/libgalago-gtk/galago-gtk-contact-path-bar.h
+  /usr/include/libgalago-gtk/galago-gtk-entry-completion.h
+  /usr/include/libgalago-gtk/galago-gtk-enum-types.h
+  /usr/include/libgalago-gtk/galago-gtk-person-list.h
+  /usr/include/libgalago-gtk/galago-gtk-presence-icon.h
+  /usr/include/libgalago-gtk/galago-gtk-presence-label.h
+  /usr/include/libgalago-gtk/galago-gtk-presence-menu-item.h
+  /usr/include/libgalago-gtk/galago-gtk-service-combo-box.h
+  /usr/include/libgalago-gtk/galago-gtk-service-list.h
+  /usr/include/libgalago-gtk/galago-gtk-service-menu-item.h
+  /usr/include/libgalago-gtk/galago-gtk-types.h
+  /usr/include/libgalago-gtk/galago-gtk.h
+  /usr/lib/libgalago-gtk.dll.a
+  /usr/lib/libgalago-gtk.la
+  /usr/lib/pkgconfig/libgalago-gtk.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.5.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
