@@ -1,4 +1,3 @@
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x autom4te.cache -x config.cache -x config.log -x config.status -x config.h -x config.h.in -x ABOUT-NLS -x Makefile.in.in -x Makevars.template -x '*SlackBuild*' -x '*.egg-info' -x '*.class' -x '*.pyc' -x '*.mo' -x '*.gmo' -x '*.orig' -x '*.rej' -x '*.spec' -x '*.temp' -x '*~' -x '*.stackdump' -x COPYING -x INSTALL -x compile -x config-ml.in -x config.guess -x config.sub -x depcomp -x elisp-comp -x install-sh -x ltmain.sh -x mdate-sh -x missing -x mkinstalldirs -x py-compile -x symlink-tree -x texinfo.tex -x ylwrap -x Makefile.in -x makefile.in -x configure -x omf.make -x xmldocs.make -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x intltool-extract -x intltool-extract.in -x intltool-merge -x intltool-merge.in -x intltool-update -x intltool-update.in -x m4 origsrc/libgalago-gtk-0.5.0/Makefile.am src/libgalago-gtk-0.5.0/Makefile.am
 --- origsrc/libgalago-gtk-0.5.0/Makefile.am	2006-02-13 02:18:46.000000000 -0600
 +++ src/libgalago-gtk-0.5.0/Makefile.am	2007-06-22 06:46:50.265625000 -0500
 @@ -1,4 +1,4 @@
@@ -7,7 +6,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x autom4te.cache -x config.cache -
  
  pcdata_DATA= libgalago-gtk.pc
  pcdatadir = $(libdir)/pkgconfig
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x autom4te.cache -x config.cache -x config.log -x config.status -x config.h -x config.h.in -x ABOUT-NLS -x Makefile.in.in -x Makevars.template -x '*SlackBuild*' -x '*.egg-info' -x '*.class' -x '*.pyc' -x '*.mo' -x '*.gmo' -x '*.orig' -x '*.rej' -x '*.spec' -x '*.temp' -x '*~' -x '*.stackdump' -x COPYING -x INSTALL -x compile -x config-ml.in -x config.guess -x config.sub -x depcomp -x elisp-comp -x install-sh -x ltmain.sh -x mdate-sh -x missing -x mkinstalldirs -x py-compile -x symlink-tree -x texinfo.tex -x ylwrap -x Makefile.in -x makefile.in -x configure -x omf.make -x xmldocs.make -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x intltool-extract -x intltool-extract.in -x intltool-merge -x intltool-merge.in -x intltool-update -x intltool-update.in -x m4 origsrc/libgalago-gtk-0.5.0/configure.ac src/libgalago-gtk-0.5.0/configure.ac
 --- origsrc/libgalago-gtk-0.5.0/configure.ac	2006-04-08 21:52:17.000000000 -0500
 +++ src/libgalago-gtk-0.5.0/configure.ac	2007-06-22 06:46:39.531250000 -0500
 @@ -88,8 +88,7 @@
@@ -28,7 +26,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x autom4te.cache -x config.cache -
  libgalago-gtk/Makefile
  pixmaps/Makefile
  po/Makefile.in
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x autom4te.cache -x config.cache -x config.log -x config.status -x config.h -x config.h.in -x ABOUT-NLS -x Makefile.in.in -x Makevars.template -x '*SlackBuild*' -x '*.egg-info' -x '*.class' -x '*.pyc' -x '*.mo' -x '*.gmo' -x '*.orig' -x '*.rej' -x '*.spec' -x '*.temp' -x '*~' -x '*.stackdump' -x COPYING -x INSTALL -x compile -x config-ml.in -x config.guess -x config.sub -x depcomp -x elisp-comp -x install-sh -x ltmain.sh -x mdate-sh -x missing -x mkinstalldirs -x py-compile -x symlink-tree -x texinfo.tex -x ylwrap -x Makefile.in -x makefile.in -x configure -x omf.make -x xmldocs.make -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x intltool-extract -x intltool-extract.in -x intltool-merge -x intltool-merge.in -x intltool-update -x intltool-update.in -x m4 origsrc/libgalago-gtk-0.5.0/libgalago-gtk/Makefile.am src/libgalago-gtk-0.5.0/libgalago-gtk/Makefile.am
 --- origsrc/libgalago-gtk-0.5.0/libgalago-gtk/Makefile.am	2006-03-17 01:28:01.000000000 -0600
 +++ src/libgalago-gtk-0.5.0/libgalago-gtk/Makefile.am	2007-06-21 23:36:48.031250000 -0500
 @@ -63,7 +63,7 @@
