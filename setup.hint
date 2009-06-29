@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2 gtk2-x11 libgalago libintl8
+requires: glib2 gtk2-x11 libgalago libintl8
 sdesc: "Desktop presence framework widget library (runtime)"
 ldesc: "Galago is a desktop presence framework, designed to transmit presence
 information between programs. To put it in simpler terms, it takes
